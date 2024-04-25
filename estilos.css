@@ -6,6 +6,7 @@ body {
   color: #333; /* Color de texto predeterminado */
 }
 
+/* -- INDEX -- */
 /* HEADER */
 header {
   background-color: #003366;
@@ -31,7 +32,6 @@ header h1:hover{
     background: white;
     transition: 1s
 }
-
 header img.logo {
   height: 100px;
 }
@@ -103,12 +103,14 @@ header .phone {
   100% { transform: translateX(-100%); }
 }
 
+
+
+/* Ajustes para centrar 'Publicaciones Recientes' */
 .publicaciones-recientes h3,
 .ultimas-noticias h3 {
   margin-top: 0;
 }
 
-/* Ajustes para centrar 'Publicaciones Recientes' */
 .content {
   align-items: center; /* Centra los elementos hijos horizontalmente */
 }
@@ -191,43 +193,14 @@ header .phone {
 }
 
 
-/* Estilos para dispositivos móviles */
-/* Estilos para dispositivos con ancho fijo de más de 1300px */
-@media (min-width: 1300px) {
-  .container {
-    width: 1300px;
-    margin: 0 auto;
-  }
-}
+/* -- Noticias  -- */
+/* -- Noticias  -- */
+/* -- Noticias  -- */
+/* -- Noticias  -- */
+/* -- Noticias  -- */
+/* -- Noticias  -- */
 
-/* Estilos para tablet en posición vertical */
-@media (max-width: 1024px) {
-  .container {
-    padding: 20px 40px;
-  }
-}
-
-/* Estilos para tablet en posición horizontal */
-@media (max-width: 768px) and (orientation: landscape) {
-  .container {
-    padding: 20px 60px;
-  }
-}
-
-/* Estilos para teléfono en posición vertical */
-@media (max-width: 480px) and (orientation: portrait) {
-  .container {
-    padding: 20px;
-  }
-}
-
-/* Estilos para teléfono en posición horizontal */
-@media (max-width: 320px) and (orientation: landscape) {
-  .container {
-    padding: 20px 40px;
-  }
-
-}
+/* -- Historia  -- */
 .tituloh{
   background: darkblue;
   position: relative;
@@ -270,4 +243,172 @@ header .phone {
   font-weight: 11px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+/* -- PAGINA NOSOTROS -- */
+/* Estilos CSS para ajustar la apariencia de los perfiles */
+.people-table {
+  width: 100%; /* Ancho completo de la tabla */
+  border-collapse: collapse; /* Colapsar los bordes de la tabla */
+}
+
+.people-table td {
+  padding: 20px; /* Espaciado interno de las celdas */
+  border: none; /* Sin bordes */
+  text-align: center; /* Centrar el contenido */
+}
+
+.people-table img {
+  max-width: 200px; /* Ancho máximo para las imágenes */
+  height: auto; /* Altura automática */
+}
+
+.people-table h2 {
+  margin-bottom: 10px; /* Ajustar espacio entre el título y el texto */
+}
+
+.people-table p {
+  margin-bottom: 10px; /* Ajustar espacio entre el texto y los iconos */
+  text-align: justify; /* Justificar el texto */
+}
+
+/* Estilos específicos para la página "nosotros.html" */
+.nosotros-page .social-icons a {
+  color: #0077B5; /* Color azul de LinkedIn */
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .person img {
+      max-width: 80%; /* Reducir el tamaño de las imágenes en dispositivos móviles */
+  }
+
+  .person p {
+      max-width: 90%; /* Reducir el ancho máximo del texto en dispositivos móviles */
+  }
+}
+
+
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+/* -- Visión  -- */
+
+
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+/* -- Publicaciones  -- */
+
+
+/* -- Desarrollo  -- */
+/* -- Desarrollo  -- */
+/* -- Desarrollo  -- */
+/* -- Desarrollo  -- */
+/* -- Desarrollo  -- */
+/* -- Desarrollo  -- */
+/* -- Desarrollo  -- */
+
+/* -- Soporte  -- */
+/* -- Soporte  -- */
+/* -- Soporte  -- */
+/* -- Soporte  -- */
+/* -- Soporte  -- */
+/* -- Soporte  -- */
+/* -- Soporte  -- */
+/* -- Soporte  -- */
+
+
+/* -- Localización  -- */
+/* -- Localización  -- */
+/* -- Localización  -- */
+/* -- Localización  -- */
+/* -- Localización  -- */
+/* -- Localización  -- */
+/* -- Localización  -- */
+/* -- Localización  -- */
+/* -- Localización  -- */
+
+/* -- Contacto  -- */
+/* -- Contacto  -- */
+/* -- Contacto  -- */
+/* -- Contacto  -- */
+/* -- Contacto  -- */
+/* -- Contacto  -- */
+/* -- Contacto  -- */
+/* -- Contacto  -- */
+
+
+/* Estilos para dispositivos móviles General */
+/* Estilos para tablet en posición vertical */
+@media (max-width: 1024px) {
+  .container {
+    padding: 20px 40px;
+    min-height: auto; /* Restablecer altura mínima */
+  }
+}
+
+/* Estilos para tablet en posición horizontal */
+@media (max-width: 768px) and (orientation: landscape) {
+  .container {
+    padding: 20px 60px;
+    min-height: auto; /* Restablecer altura mínima */
+  }
+}
+
+/* Estilos para teléfono en posición vertical */
+@media (max-width: 480px) and (orientation: portrait) {
+  .container {
+    padding: 20px;
+    min-height: auto; /* Restablecer altura mínima */
+  }
+}
+
+/* Estilos para teléfono en posición horizontal */
+@media (max-width: 320px) and (orientation: landscape) {
+  .container {
+    padding: 20px 40px;
+    min-height: auto; /* Restablecer altura mínima */
+  }
+}
+
+/* Estilos para tablet en posición vertical */
+@media (max-width: 1024px) {
+  .container {
+    padding: 20px 40px;
+  }
+}
+
+/* Estilos para tablet en posición horizontal */
+@media (max-width: 768px) and (orientation: landscape) {
+  .container {
+    padding: 20px 60px;
+  }
+}
+
+/* Estilos para teléfono en posición vertical */
+@media (max-width: 480px) and (orientation: portrait) {
+  .container {
+    padding: 20px;
+  }
+}
+
+/* Estilos para teléfono en posición horizontal */
+@media (max-width: 320px) and (orientation: landscape) {
+  .container {
+    padding: 20px 40px;
+  }
 }
