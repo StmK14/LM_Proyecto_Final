@@ -32,11 +32,11 @@ header .phone {
 .phone a {
   color: white;
 }
-
+/*Contenedor del video*/
 presentacion .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 30%; /* Ajustar ventana segun sea necario */
     overflow: hidden;
 }
 
@@ -192,12 +192,6 @@ presentacion .video-container {
 
 /* Estilos para dispositivos móviles */
 /* Estilos para dispositivos con ancho fijo de más de 1300px */
-@media screen and (max-width: 768px) {
-  .presentacion iframe {
-      max-width: 100%;
-  }
-}
-
 @media (min-width: 1300px) {
   .container {
     width: 1300px;
