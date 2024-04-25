@@ -68,7 +68,6 @@ header .phone {
 
 .news-ticker {
   overflow: hidden;
-  width: 100%; /* Ajuste para ocupar el ancho completo */
   white-space: nowrap;
 }
 
