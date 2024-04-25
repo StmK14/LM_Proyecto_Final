@@ -33,11 +33,6 @@ header .phone {
   color: white;
 }
 
-/* Establece un height mínimo en la sección principal */
-.container {
-  min-height: calc(100vh - 180px); /* Altura mínima de la ventana - altura total del header y footer */
-}
-
 /* Contenedor principal */
 .container {
   display: flex;
