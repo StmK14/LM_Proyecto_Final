@@ -32,13 +32,6 @@ header .phone {
 .phone a {
   color: white;
 }
-/* Contenedor del video */
-.presentacion .video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 75%; /* Relación de aspecto 4:3 (3/4 = 0.75) */
-    overflow: hidden;
-}
 
 /* Establece un height mínimo en la sección principal */
 .container {
